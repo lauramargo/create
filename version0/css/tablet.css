@@ -8,23 +8,7 @@
 
 
 
-    /*.header__section--logo {
-        margin-left: -300px;
-    }
 
-    .header__section--title {
-        z-index: 1;
-        position: absolute;
-        height: 90px;
-    }
-
-    .header__section--nav ul {
-        z-index: 2;
-        position: absolute;
-        top: 20px;
-        margin-left: 300px;
-        width: 250px;
-    }*/
 
     .main {
         border-left-color: var(--color-grey);

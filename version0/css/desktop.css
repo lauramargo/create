@@ -1,1 +1,49 @@
-@media all and (min-width: 1024px) {}
+@media all and (min-width: 1024px) {
+  .header {
+    height: 85px;
+  }
+
+  .header__section--logo {
+    margin-left: -600px;
+  }
+
+  .header__section--title {
+
+    height: 90px;
+    font-size: 30px;
+  }
+
+  .header__section--nav ul {
+
+    margin-left: 500px;
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .main {
+    height: 900px;
+  }
+
+  .main__boxes--container {
+
+    margin-right: 50px;
+
+  }
+
+  .footer__section--nav ul {
+    margin-left: -250px;
+
+    width: 350px;
+
+    font-size: 20px;
+  }
+
+  .footer__section2--rrss {
+
+    margin-right: 150px;
+    width: 150px;
+
+  }
+
+
+}

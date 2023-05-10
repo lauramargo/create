@@ -39,11 +39,15 @@
     font-size: 20px;
     color: var(--color-black);
     opacity: 0.95;
-    box-sizing: border-box;
+
     font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: center;
 
+}
+
+.header__section--logo {
+    margin-right: 20px;
 }
 
 
@@ -57,7 +61,7 @@
     height: 45px;
     justify-items: center;
     align-items: center;
-    box-sizing: border-box;
+
     padding: 20px;
     justify-content: space-between;
     color: white;
@@ -77,14 +81,23 @@ a:hover {
     color: rgba(235, 101, 11, 0.952);
 }
 
+.main {
+    display: flex;
+    padding-top: 5px;
+
+
+
+}
+
 .main__text {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+
+
 
 }
 
@@ -98,6 +111,7 @@ a:hover {
     margin-left: 15px;
     margin-right: 15px;
 
+
 }
 
 .main__text--p {
@@ -108,6 +122,8 @@ a:hover {
     margin-left: 15px;
     margin-right: 15px;
     line-height: 25px;
+
+    padding-bottom: 10px;
 }
 
 
@@ -124,6 +140,7 @@ a:hover {
     border-left-width: 4px;
     padding-right: 10px;
     padding-left: 50px;
+    padding-bottom: 10px;
 
 }
 
@@ -131,8 +148,26 @@ a:hover {
 .line {
     background-color: var(--color-darkGrey);
     padding: 1px 200px;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
+
 }
+
+.footer {
+    text-align: center;
+    background-color: var(--color-header);
+    border-top: 1px solid #b8b8b9;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.footer__section {
+    width: 100%;
+}
+
 
 .footer__section2--rrss li {
     display: inline-block;
@@ -143,7 +178,7 @@ a:hover {
 }
 
 .footer__section2--rrss li::before {
-    content: "·";
+
     margin: 1px;
     padding: 0.5em 0.5em 0.5em 0;
 }
@@ -156,21 +191,13 @@ ul {
 }
 
 
+
 .footer__section2--rrss a {
     text-decoration: none;
     color: var(--color-verde-azul);
 }
 
-.footer {
-    text-align: center;
-    background-color: var(--color-header);
-    border-top: 1px solid #b8b8b9;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 45px;
-    font-family: 'Open Sans', sans-serif;
 
-}
 
 .footer__section--copyright {
     color: #b8b8b9;
@@ -198,7 +225,7 @@ ul {
     height: 45px;
     justify-items: center;
     align-items: center;
-    box-sizing: border-box;
+
     padding: 20px;
     justify-content: space-between;
     color: white;
@@ -207,5 +234,7 @@ ul {
 }
 
 .footer__section2 {
-    margin: 0 160px;
+    margin: 0 140px;
+
+    text-align: center;
 }

@@ -1,6 +1,7 @@
 @media all and (min-width: 1024px) {
   .header {
-    height: 85px;
+    height: 55px;
+    max-width: 100%;
   }
 
   .header__section--logo {
@@ -9,13 +10,16 @@
 
   .header__section--title {
 
-    height: 90px;
+    z-index: 1;
+    position: absolute;
     font-size: 30px;
   }
 
   .header__section--nav ul {
-
-    margin-left: 500px;
+    z-index: 2;
+    position: absolute;
+    top: 5px;
+    margin-left: 600px;
     width: 450px;
     font-size: 20px;
   }
@@ -30,6 +34,10 @@
 
   }
 
+  .footer {
+    max-width: 100%;
+  }
+
   .footer__section--nav ul {
     margin-left: -250px;
 
@@ -40,7 +48,7 @@
 
   .footer__section2--rrss {
 
-    margin-right: 150px;
+    margin-right: -55px;
     width: 150px;
 
   }

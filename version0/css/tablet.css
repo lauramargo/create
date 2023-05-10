@@ -1,14 +1,14 @@
 @media all and (min-width:500px) {
 
     .header {
-        height: 85px;
+        height: 100px;
         display: flex;
         justify-content: space-between;
     }
 
 
 
-    .header__section--logo {
+    /*.header__section--logo {
         margin-left: -300px;
     }
 
@@ -24,7 +24,7 @@
         top: 20px;
         margin-left: 300px;
         width: 250px;
-    }
+    }*/
 
     .main {
         border-left-color: var(--color-grey);
@@ -54,7 +54,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 120%;
+
     }
 
 

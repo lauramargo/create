@@ -1,0 +1,147 @@
+@media all and (min-width:500px) {
+    .fixed {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cabeza {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nombre-header {
+        margin: 0;
+        width: 30%;
+        opacity: 0.95;
+        padding-left: 20px;
+        padding-top: 22px;
+        flex-grow: 1;
+
+    }
+
+
+    .menu1 ul {
+        width: 70vw;
+        height: 60px;
+        background-color: var(--color-verde-azul);
+        opacity: 0.95;
+        display: flex;
+        text-align: right;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+
+
+    .equipo-blanco {
+        padding-top: 0px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .gris {
+        flex-direction: row;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .izquierda {
+        flex-direction: row;
+    }
+
+    .derecha {
+        flex-direction: row-reverse;
+    }
+
+    .contenedor {
+        width: 250px;
+        height: 250px;
+
+
+    }
+
+    .left {
+        width: 60%;
+        align-items: flex-start;
+
+    }
+
+    .right {
+        width: 60%;
+        align-items: flex-end;
+
+    }
+
+    .quienes-somos {
+        padding-left: 45px;
+        padding-right: 45px;
+
+    }
+
+
+    .nombre {
+        margin-left: 30px;
+        margin-top: 50px;
+        margin-right: 30px;
+
+    }
+
+    .iz {
+        text-align: left;
+    }
+
+    .de {
+        text-align: right;
+    }
+
+    .rrss {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .footer {
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 55px;
+        height: 190px;
+
+
+    }
+
+    .footer .section-copyright {
+        text-align: left;
+        padding-left: 45px;
+
+    }
+
+    .items-footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: -45px;
+        top: -30px;
+        text-align: right;
+    }
+
+    .quienes-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contenedor-logo {
+        display: flex;
+        position: relative;
+        justify-content: left;
+        padding-left: 45px;
+        bottom: 100px;
+    }
+
+    .img-footer {
+
+        margin-bottom: 50px;
+        left: 45px;
+
+
+    }
+
+
+}
